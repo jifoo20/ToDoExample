@@ -1,1 +1,134 @@
-{    "toJSON": true,    "dbInfo": [{        "name": "Model",        "uuid": ""    }],    "extraProperties": {        "version": "1",        "classes": {        },        "model": {}    },    "dataClasses": []}
+﻿{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "1",
+		"classes": {
+			"DataClass1": {
+				"panelColor": "#BFBFBF",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 25,
+						"Y": 20
+					}
+				}
+			},
+			"DataClass2": {
+				"panelColor": "#4FA997",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 245,
+						"Y": 20
+					}
+				}
+			},
+			"DataClass3": {
+				"panelColor": "#eee",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 465,
+						"Y": 20
+					}
+				}
+			},
+			"DataClass4": {
+				"panelColor": "#7F7F7F",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 685,
+						"Y": 20
+					}
+				}
+			},
+			"DataClass5": {
+				"panelColor": "#D7E3BC",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 25,
+						"Y": 120
+					}
+				}
+			}
+		},
+		"model": {
+			"workspaceLeft": 0,
+			"workspaceTop": 0
+		}
+	},
+	"dataClasses": [
+		{
+			"collectionName": "DataClass1Collection",
+			"className": "DataClass1",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				}
+			]
+		},
+		{
+			"collectionName": "DataClass2Collection",
+			"className": "DataClass2",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				}
+			]
+		},
+		{
+			"collectionName": "DataClass3Collection",
+			"className": "DataClass3",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				}
+			]
+		},
+		{
+			"collectionName": "DataClass4Collection",
+			"className": "DataClass4",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				}
+			]
+		},
+		{
+			"collectionName": "DataClass5Collection",
+			"className": "DataClass5",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				}
+			]
+		}
+	]
+}
